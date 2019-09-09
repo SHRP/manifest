@@ -12,7 +12,7 @@
            review="gerrit.omnirom.org" />
   
   <remote  name="SKYHAWK-Recovery-Project"
-             fetch="https://github.com/epicX67" />
+             fetch="https://github.com/SKYHAWK-Recovery-Project" />
 
   <project path="art" name="android_art" remote="omnirom" revision="android-9.0" groups="pdk" />
   <project path="bionic" name="android_bionic" remote="omnirom" revision="android-9.0" groups="pdk" />
