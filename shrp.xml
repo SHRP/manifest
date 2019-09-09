@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  
+  <remote  name="epicX67"
+             fetch="https://github.com/epicX67" />
+
+  <project path="build/" name="android_build" remote="epicX67" revision="master"/>
+  <project path="bootable/recovery/gui/" name="android_bootable_recovery_gui" remote="epicX67" revision="9.0"/>
+  <project path="vendor/" name="android_vendor_shrp" remote="epicX67" revision="master"/>
+
+</manifest>
