@@ -18,16 +18,12 @@ Then to sync up:
 
 Then to build for a device with recovery partition:
 
-     cd <source-dir>; 
+     cd <source-dir>
      
-     export ALLOW_MISSING_DEPENDENCIES=true; 
+     export ALLOW_MISSING_DEPENDENCIES=true
      
-     . build/envsetup.sh; 
+     . build/envsetup.sh
      
-     lunch omni_<device>-eng; 
-     
-     . <shrp_device_tree_path>/shrp_env.sh;
+     lunch omni_<device>-eng
      
      mka recoveryimage
-
-
