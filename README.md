@@ -1,28 +1,6 @@
-
-### Go through this [guide](https://skyhawk-recovery-project.github.io/#/guide) first.
+![SHRP](https://github.com/SKYHAWK-Recovery-Project/platform_manifest_twrp_omni/raw/9.0/banner.png)
 
 ---------------
 
-To initialize your local repository using the OMNIROM trees to build TWRP, use a command like this:
 
-    repo init -u git://github.com/SKYHAWK-Recovery-Project/platform_manifest_twrp_omni.git -b 9.0
-
-To initialize a shallow clone, which will save even more space, use a command like this:
-
-    repo init --depth=1 -u git://github.com/SKYHAWK-Recovery-Project/platform_manifest_twrp_omni.git -b 9.0
-
-Then to sync up:
-
-    repo sync
-
-Then to build for a device with recovery partition:
-
-     cd <source-dir>
-     
-     export ALLOW_MISSING_DEPENDENCIES=true
-     
-     . build/envsetup.sh
-     
-     lunch omni_<device>-eng
-     
-     mka recoveryimage
+### [Guide](https://skyhawk-recovery-project.github.io/#/guide) to Build SHRP
