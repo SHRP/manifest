@@ -1,8 +1,7 @@
-## Getting Started ##
----------------
 
-To get started with OMNI sources to build TWRP, you'll need to get
-familiar with [Git and Repo](https://source.android.com/source/using-repo.html).
+### Go through this [guide](https://skyhawk-recovery-project.github.io/#/guide) first.
+
+---------------
 
 To initialize your local repository using the OMNIROM trees to build TWRP, use a command like this:
 
