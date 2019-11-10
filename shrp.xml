@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   
-  <remote  name="SKYHAWK-Recovery-Project"
+  <remote name="SKYHAWK-Recovery-Project"
              fetch="https://github.com/SKYHAWK-Recovery-Project" />
 
+  <project path="bootable/recovery" name="shrp_bootable_recovery" remote="SKYHAWK-Recovery-Project" revision="android-9.0"/>
   <project path="vendor/shrp" name="android_vendor_shrp" remote="SKYHAWK-Recovery-Project" revision="9.0"/>
   <project path="system/update_engine" name="android_system_update_engine" remote="SKYHAWK-Recovery-Project" revision="android-9.0"/>
 
