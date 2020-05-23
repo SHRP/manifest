@@ -11,7 +11,6 @@
 <!-- TWRP lives in omnirom android-9.0 (not AOSP!) -->
     <remove-project name="platform/bootable/recovery"/>
 <!-- Include TeamWin android_system_update_engine to build a good update_engine_sideload -->
-    <project path="external/busybox" name="android_external_busybox" remote="SKYHAWK-Recovery-Project" revision="android-9.0" />
     <include name="shrp.xml" />
 </manifest>
 
