@@ -10,6 +10,8 @@
 
 <!-- TWRP lives in omnirom android-9.0 (not AOSP!) -->
     <remove-project name="platform/bootable/recovery"/>
+<!-- Magiskboot repo -->
+    <project path="external/magisk-prebuilt" name="external_magisk-prebuilt" remote="Teamwin" revision="master" />
 <!-- Include TeamWin android_system_update_engine to build a good update_engine_sideload -->
     <include name="shrp.xml" />
 </manifest>
