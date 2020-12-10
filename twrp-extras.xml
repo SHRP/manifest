@@ -4,14 +4,14 @@
             fetch="https://github.com/TeamWin"
             review="https://gerrit.twrp.me" />
 	
-	<remote  name="SKYHAWK-Recovery-Project"
-             fetch="https://github.com/SKYHAWK-Recovery-Project" />
+	<remote  name="SHRP"
+             fetch="https://github.com/SHRP" />
 
 
 <!-- TWRP lives in omnirom android-9.0 (not AOSP!) -->
     <remove-project name="platform/bootable/recovery"/>
 <!-- Magiskboot repo -->
-    <project path="external/magisk-prebuilt" name="external_magisk-prebuilt" remote="SKYHAWK-Recovery-Project" revision="master" />
+    <project path="external/magisk-prebuilt" name="external_magisk-prebuilt" remote="SHRP" revision="master" />
 <!-- Include shrp.xml -->
     <include name="shrp.xml" />
 </manifest>
