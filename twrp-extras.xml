@@ -3,15 +3,16 @@
     <remote name="TeamWin"
             fetch="https://github.com/TeamWin"
             review="https://gerrit.twrp.me" />
-	
-	<remote  name="SHRP"
+    
+    <remote  name="SHRP"
              fetch="https://github.com/SHRP" />
 
-
-<!-- TWRP lives in omnirom android-9.0 (not AOSP!) -->
+<!-- TWRP lives in TeamWin android-9.0 (not AOSP!) -->
     <remove-project name="platform/bootable/recovery"/>
+
 <!-- Magiskboot repo -->
     <project path="external/magisk-prebuilt" name="external_magisk-prebuilt" remote="SHRP" revision="master" />
+	
 <!-- Include shrp.xml -->
     <include name="shrp.xml" />
 </manifest>

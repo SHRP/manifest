@@ -2,6 +2,12 @@
 <manifest>
 
     <!-- Remove from default.xml -->
+    <remove-project name="device/generic/common"/>
+    <remove-project name="device/generic/goldfish"/>
+    <remove-project name="device/generic/goldfish-opengl"/>
+
+    <remove-project name="kernel/configs"/>
+
     <remove-project name="platform/compatibility/cdd"/>
     <remove-project name="platform/cts"/>
 
@@ -231,6 +237,74 @@
     <remove-project name="android_vendor_qcom_opensource_interfaces"/>
     <remove-project name="platform/hardware/qcom/keymaster"/>
 
+    <remove-project name="platform/packages/apps/BasicSmsReceiver"/>
+    <remove-project name="platform/packages/apps/Browser2"/>
+    <remove-project name="platform/packages/apps/Camera2"/>
+    <remove-project name="platform/packages/apps/CarrierConfig"/>
+    <remove-project name="platform/packages/apps/CertInstaller"/>
+    <remove-project name="platform/packages/apps/DevCamera"/>
+    <remove-project name="platform/packages/apps/Email"/>
+    <remove-project name="platform/packages/apps/ExactCalculator"/>
+    <remove-project name="platform/packages/apps/HTMLViewer"/>
+    <remove-project name="platform/packages/apps/KeyChain"/>
+    <remove-project name="platform/packages/apps/LegacyCamera"/>
+    <remove-project name="platform/packages/apps/ManagedProvisioning"/>
+    <remove-project name="platform/packages/apps/OneTimeInitializer"/>
+    <remove-project name="platform/packages/apps/PackageInstaller"/>
+    <remove-project name="platform/packages/apps/Protips"/>
+    <remove-project name="platform/packages/apps/Provision"/>
+    <remove-project name="platform/packages/apps/QuickSearchBox"/>
+    <remove-project name="platform/packages/apps/SafetyRegulatoryInfo"/>
+    <remove-project name="platform/packages/apps/SecureElement"/>
+    <remove-project name="platform/packages/apps/SoundRecorder"/>
+    <remove-project name="platform/packages/apps/SpareParts"/>
+    <remove-project name="platform/packages/apps/StorageManager"/>
+    <remove-project name="android_packages_apps_Tag"/>
+    <remove-project name="platform/packages/apps/Terminal"/>
+    <remove-project name="platform/packages/apps/Test/connectivity"/>
+    <remove-project name="platform/packages/apps/TimeZoneData"/>
+    <remove-project name="platform/packages/apps/TimeZoneUpdater"/>
+    <remove-project name="platform/packages/apps/Traceur"/>
+    <remove-project name="platform/packages/apps/TvSettings"/>
+    <remove-project name="platform/packages/apps/TV"/>
+    <remove-project name="platform/packages/apps/UnifiedEmail"/>
+    <remove-project name="platform/packages/apps/WallpaperPicker"/>
+    <remove-project name="platform/packages/experimental"/>
+    <remove-project name="platform/packages/inputmethods/OpenWnn"/>
+    <remove-project name="platform/packages/providers/ApplicationsProvider"/>
+    <remove-project name="platform/packages/providers/BlockedNumberProvider"/>
+    <remove-project name="platform/packages/providers/BookmarkProvider"/>
+    <remove-project name="platform/packages/providers/CalendarProvider"/>
+    <remove-project name="platform/packages/providers/CallLogProvider"/>
+    <remove-project name="platform/packages/providers/ContactsProvider"/>
+    <remove-project name="platform/packages/providers/MediaProvider"/>
+    <remove-project name="platform/packages/providers/PartnerBookmarksProvider"/>
+    <remove-project name="platform/packages/providers/TelephonyProvider"/>
+    <remove-project name="platform/packages/providers/TvProvider"/>
+    <remove-project name="platform/packages/providers/UserDictionaryProvider"/>
+    <remove-project name="platform/packages/screensavers/Basic"/>
+    <remove-project name="platform/packages/screensavers/PhotoTable"/>
+    <remove-project name="platform/packages/screensavers/WebView"/>
+    <remove-project name="platform/packages/apps/Car/Dialer"/>
+    <remove-project name="platform/packages/apps/Car/Hvac"/>
+    <remove-project name="platform/packages/apps/Car/LatinIME"/>
+    <remove-project name="platform/packages/apps/Car/Launcher"/>
+    <remove-project name="platform/packages/apps/Car/LensPicker"/>
+    <remove-project name="platform/packages/apps/Car/LocalMediaPlayer"/>
+    <remove-project name="platform/packages/apps/Car/Media"/>
+    <remove-project name="platform/packages/apps/Car/Messenger"/>
+    <remove-project name="platform/packages/apps/Car/Overview"/>
+    <remove-project name="platform/packages/apps/Car/Radio"/>
+    <remove-project name="platform/packages/apps/Car/Settings"/>
+    <remove-project name="platform/packages/apps/Car/Stream"/>
+    <remove-project name="platform/packages/apps/Car/SystemUpdater"/>
+    <remove-project name="platform/packages/apps/Car/libs"/>
+    <remove-project name="platform/packages/services/BuiltInPrintService"/>
+    <remove-project name="platform/packages/services/Car"/>
+    <remove-project name="platform/packages/services/Mms"/>
+    <remove-project name="platform/packages/services/NetworkRecommendation"/>
+    <remove-project name="platform/packages/wallpapers/LivePicker"/>
+
     <remove-project name="platform/pdk"/>
 
     <remove-project name="platform/platform_testing"/>
@@ -265,7 +339,6 @@
     <remove-project name="platform/system/connectivity/wificond"/>
     <remove-project name="platform/system/connectivity/wifilogd"/>
     <remove-project name="platform/system/chre"/>
-    <remove-project name="platform/system/libufdt"/>
     <remove-project name="platform/system/nvram"/>
     <remove-project name="platform/system/tpm"/>
 
@@ -321,6 +394,29 @@
     <remove-project name="android_hardware_qcom_power"/>
     <remove-project name="android_hardware_qcom_wlan"/>
 
+    <remove-project name="android_packages_apps_Bluetooth"/>
+    <remove-project name="android_packages_apps_Calendar"/>
+    <remove-project name="android_packages_apps_CellBroadcastReceiver"/>
+    <remove-project name="android_packages_apps_Contacts"/>
+    <remove-project name="android_packages_apps_Dialer"/>
+    <remove-project name="android_packages_apps_DocumentsUI"/>
+    <remove-project name="android_packages_apps_EmergencyInfo"/>
+    <remove-project name="android_packages_apps_Launcher3"/>
+    <remove-project name="android_packages_apps_Gallery2"/>
+    <remove-project name="android_packages_apps_Messaging"/>
+    <remove-project name="android_packages_apps_MusicFX"/>
+    <remove-project name="android_packages_apps_Nfc"/>
+    <remove-project name="android_packages_apps_OmniBrain"/>
+    <remove-project name="android_packages_apps_OmniLib"/>
+    <remove-project name="android_packages_apps_PhoneCommon"/>
+    <remove-project name="android_packages_apps_Settings"/>
+    <remove-project name="android_packages_apps_SettingsIntelligence"/>
+    <remove-project name="android_packages_apps_Stk"/>
+    <remove-project name="android_packages_inputmethods_LatinIME"/>
+    <remove-project name="android_packages_providers_DownloadProvider"/>
+    <remove-project name="android_packages_services_Telecomm"/>
+    <remove-project name="android_packages_services_Telephony"/>
+
     <remove-project name="android_system_bt"/>
     <remove-project name="android_system_nfc"/>
     <remove-project name="android_system_update_engine"/>
@@ -331,6 +427,23 @@
     <remove-project name="android_external_libnfnetlink"/>
     <remove-project name="android_hardware_ril"/>
     <remove-project name="android_vendor_codeaurora_telephony"/>
+
+
+    <!-- Remove from omni-default.xml (OmniROM Projects) -->
+    <remove-project name="android_packages_apps_Matlog"/>
+    <remove-project name="android_packages_apps_MonthCalendarWidget"/>
+    <remove-project name="android_packages_apps_OmniChange"/>
+    <remove-project name="android_packages_apps_OmniClock"/>
+    <remove-project name="android_packages_apps_OmniGears"/>
+    <remove-project name="android_packages_services_OmniJaws"/>
+    <remove-project name="android_packages_apps_OmniStyle"/>
+    <remove-project name="android_packages_apps_OmniSwitch"/>
+    <remove-project name="android_packages_apps_OpenDelta"/>
+    <remove-project name="android_packages_apps_OmniChromium"/>
+    <remove-project name="android_packages_apps_OmniRecord"/>
+    <remove-project name="android_packages_apps_Phonograph"/>
+    <remove-project name="android_vendor_interfaces"/>
+
 
     <!-- LAST: Add/Replace repos and particular directories needed by TWRP -->
     <include name="twrp-extras.xml"/>
