@@ -3,4 +3,4 @@
 ---------------
 
 
-### [Guide](https://skyhawk-recovery-project.github.io/#/guide) to Build SHRP
+### [Guide](https://shrp.github.io/#/guide) to Build SHRP
