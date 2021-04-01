@@ -11,7 +11,7 @@
     <remove-project name="platform/bootable/recovery"/>
 
 <!-- Magiskboot repo -->
-    <project path="external/magisk-prebuilt" name="external_magisk-prebuilt" remote="SHRP" revision="master" />
+    <project path="external/magisk-prebuilt" name="external_magisk-prebuilt" remote="SHRP" revision="android-9.0" />
 	
 <!-- Include shrp.xml -->
     <include name="shrp.xml" />
