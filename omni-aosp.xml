@@ -27,7 +27,7 @@
     <linkfile src="tools" dest="build/tools" />
     <linkfile src="shrp" dest="build/shrp" />
   </project>
-  <project path="build/soong" name="android_build_soong" remote="omnirom" revision="android-10" >
+  <project path="build/soong" name="android_build_soong" remote="SHRP" revision="android-10" >
       <linkfile src="root.bp" dest="Android.bp" />
       <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
