@@ -712,5 +712,10 @@
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
   <!-- OmniROM -->
-  <include name="omni-default.xml" />
+  <include name="snippets/remove.xml" />
+  <include name="snippets/omni-aosp.xml" />
+  <include name="snippets/omni-caf.xml" />
+  <include name="snippets/omni-default.xml" />
+  <include name="snippets/remove-minimal.xml" />
+  <include name="snippets/shrp.xml" />
 </manifest>

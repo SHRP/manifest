@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <!-- FIRST: Remove unused/forked AOSP Projects -->
-  <include name="remove.xml" />
-
-  <!-- Include forked AOSP -->
-  <include name="omni-aosp.xml" />
-
-  <!-- Include forked CAF -->
-  <include name="omni-caf.xml" />
-
   <!-- OmniROM Projects -->
   <project path="android" name="android" remote="omnirom" revision="android-9.0" />
 
@@ -42,8 +33,4 @@
   <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="omnirom" revision="android-9.0" />
   <project path="packages/apps/OpenDelta" name="android_packages_apps_OpenDelta" remote="omnirom" revision="android-9.0" />
   <project path="packages/apps/Phonograph" name="android_packages_apps_Phonograph" remote="omnirom" revision="android-9.0" />
-
-  <!-- LAST: Remove unused/forked Projects for minimal TWRP -->
-  <include name="remove-minimal.xml" />
-
 </manifest>

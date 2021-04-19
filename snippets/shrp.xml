@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   
-  <remote name="SHRP" fetch="https://github.com/SHRP" />
+  <remote name="SHRP" 
+	fetch="https://github.com/SHRP" />
+
+  <remote name="devices" 
+	fetch="https://github.com/SHRP-Devices" />
+
+  <!-- Sync our own bootable/recovery -->
+  <remove-project name="platform/bootable/recovery"/>
 
   <project path="bootable/recovery" name="bootable_recovery" remote="SHRP" revision="android-9.0"/>
   <project path="vendor/shrp" name="android_vendor_shrp" remote="SHRP" revision="v3"/>
   <project path="system/update_engine" name="android_system_update_engine" remote="SHRP" revision="android-9.0"/>
+  
   <!-- Busybox repo -->
   <project path="external/busybox" name="android_external_busybox" remote="SHRP" revision="android-9.0" />
+
+  <!-- Magiskboot repo -->
+  <project path="external/magisk-prebuilt" name="external_magisk-prebuilt" remote="SHRP" revision="android-9.0" />
+
 </manifest>

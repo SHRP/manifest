@@ -443,9 +443,4 @@
     <remove-project name="android_packages_apps_OmniRecord"/>
     <remove-project name="android_packages_apps_Phonograph"/>
     <remove-project name="android_vendor_interfaces"/>
-
-
-    <!-- LAST: Add/Replace repos and particular directories needed by TWRP -->
-    <include name="twrp-extras.xml"/>
-
 </manifest>
