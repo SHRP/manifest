@@ -8,10 +8,6 @@
             fetch="https://github.com/LineageOS"
             review="https://review.lineageos.org"/>
 
-
-    <!-- TWRP lives in TeamWin android-11 (not AOSP!) -->
-    <project path="bootable/recovery" name="android_bootable_recovery" remote="TeamWin" revision="android-11"/>
-
     <project path="build/make" name="android_build" remote="TeamWin" revision="android-11" groups="pdk">
         <copyfile src="core/root.mk" dest="Makefile"/>
         <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk"/>
