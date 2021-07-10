@@ -61,4 +61,6 @@
        <copyfile src="dummy/Android.mk" dest="system/libvintf/xsd/compatibilityMatrix/vts/Android.mk" />
        <copyfile src="dummy/Android.mk" dest="system/libvintf/xsd/halManifest/vts/Android.mk" />
     </project>
+<!-- Include shrp.xml -->
+    <include name="shrp.xml" />
 </manifest>
