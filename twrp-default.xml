@@ -90,4 +90,6 @@
 
     <!-- LAST: Remove unused projects for minimal manifest -->
     <include name="remove-minimal.xml"/>
+    <!-- Include shrp.xml -->
+    <include name="shrp.xml" />
 </manifest>
