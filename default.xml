@@ -6,7 +6,8 @@
             review="https://android-review.googlesource.com/"/>
     <default revision="refs/tags/android-11.0.0_r29"
              remote="aosp"
-             sync-j="4"/>
+             sync-c="true"
+             sync-j="12" />
 
     <project path="build/make" name="platform/build" groups="pdk">
         <copyfile src="core/root.mk" dest="Makefile"/>
