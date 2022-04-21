@@ -29,19 +29,7 @@
     <remove-project name="platform/system/security" />
     <remove-project name="platform/system/vold" />
 
-    <!-- TWRP lives in TeamWin repo -->
-    <project path="bootable/recovery" name="android_bootable_recovery" remote="TeamWin" revision="android-12.1"/>
-
     <!-- Use TeamWin repos for full recovery compatibility -->
-    <project path="build/make" name="android_build" remote="TeamWin" revision="android-12.1" groups="pdk">
-        <copyfile src="core/root.mk" dest="Makefile"/>
-        <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk"/>
-        <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default"/>
-        <linkfile src="core" dest="build/core"/>
-        <linkfile src="envsetup.sh" dest="build/envsetup.sh"/>
-        <linkfile src="target" dest="build/target"/>
-        <linkfile src="tools" dest="build/tools"/>
-    </project>
     <project path="build/soong" name="android_build_soong" remote="TeamWin" revision="android-12.1">
         <linkfile src="root.bp" dest="Android.bp"/>
         <linkfile src="bootstrap.bash" dest="bootstrap.bash"/>
