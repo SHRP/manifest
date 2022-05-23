@@ -17,4 +17,11 @@
   <project path="bootable/recovery" name="bootable_recovery" remote="SHRP" revision="android-11.0"/>
   <project path="vendor/shrp" name="android_vendor_shrp" remote="SHRP" revision="v3_11"/>
   <project path="external/lptools" name="vendor_lptools" remote="SHRP" revision="master"/>
+  
+    <project path="vendor/twrp" name="android_vendor_twrp" remote="SHRP" revision="android-11" >
+       <copyfile src="dummy/Android.mk" dest="frameworks/base/core/xsd/vts/Android.mk" />
+       <copyfile src="dummy/Android.mk" dest="frameworks/base/services/core/xsd/vts/Android.mk" />
+       <copyfile src="dummy/Android.mk" dest="system/libvintf/xsd/compatibilityMatrix/vts/Android.mk" />
+       <copyfile src="dummy/Android.mk" dest="system/libvintf/xsd/halManifest/vts/Android.mk" />
+    </project>
 </manifest>

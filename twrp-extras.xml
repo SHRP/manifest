@@ -48,14 +48,6 @@
     <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" remote="LineageOS"
              revision="lineage-18.1"/>
 
-    <!-- Use TeamWin repos for full recovery compatibility -->
-    <project path="vendor/twrp" name="android_vendor_twrp" remote="TeamWin" revision="android-11" >
-       <copyfile src="dummy/Android.mk" dest="frameworks/base/core/xsd/vts/Android.mk" />
-       <copyfile src="dummy/Android.mk" dest="frameworks/base/services/core/xsd/vts/Android.mk" />
-       <copyfile src="dummy/Android.mk" dest="system/libvintf/xsd/compatibilityMatrix/vts/Android.mk" />
-       <copyfile src="dummy/Android.mk" dest="system/libvintf/xsd/halManifest/vts/Android.mk" />
-    </project>
-
     <!-- Common Qualcomm Repos -->
     <project name="android_device_qcom_common" path="device/qcom/common" remote="TeamWin" revision="android-11" />
     <project name="android_device_qcom_twrp-common" path="device/qcom/twrp-common" remote="TeamWin" revision="android-11" />
