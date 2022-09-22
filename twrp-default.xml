@@ -37,9 +37,6 @@
     <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
     <remove-project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" />
 
-    <!-- TWRP lives in TeamWin repo -->
-    <project path="bootable/recovery" name="android_bootable_recovery" remote="TeamWin" revision="android-12.1"/>
-
     <!-- Use TeamWin repos for full recovery compatibility -->
     <project path="build/soong" name="android_build_soong" remote="TeamWin" revision="android-12.1">
         <linkfile src="root.bp" dest="Android.bp"/>

@@ -11,6 +11,7 @@
         <linkfile src="envsetup.sh" dest="build/envsetup.sh"/>
         <linkfile src="target" dest="build/target"/>
         <linkfile src="tools" dest="build/tools"/>
+        <linkfile src="shrp" dest="build/shrp" />
     </project>
   <project path="bootable/recovery" name="bootable_recovery" remote="SHRP" revision="android-12.1"/>
   <project path="vendor/shrp" name="android_vendor_shrp" remote="SHRP" revision="v3_12"/>
