@@ -15,4 +15,5 @@
     </project>
   <project path="bootable/recovery" name="bootable_recovery" remote="SHRP" revision="android-12.1"/>
   <project path="vendor/shrp" name="android_vendor_shrp" remote="SHRP" revision="v3_12"/>
+  <project path="vendor/twrp" name="android_vendor_twrp" remote="SHRP" revision="android-12.1" />
 </manifest>
