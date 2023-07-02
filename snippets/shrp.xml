@@ -15,7 +15,7 @@
   <project path="system/update_engine" name="android_system_update_engine" remote="SHRP" revision="android-9.0"/>
   
   <!-- Busybox repo -->
-  <project path="external/busybox" name="android_external_busybox" remote="SHRP" revision="android-9.0" />
+  <project path="external/busybox" name="android_external_busybox" remote="omnirom" revision="android-9.0" />
 
   <!-- Magiskboot repo -->
   <project path="external/magisk-prebuilt" name="external_magisk-prebuilt" remote="SHRP" revision="android-9.0" />
