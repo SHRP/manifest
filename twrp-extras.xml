@@ -9,7 +9,7 @@
             review="https://review.lineageos.org"/>
 
     <remote name="github"
-            fetch="https:/github.com"/>
+            fetch="https://github.com"/>
 
     <project path="build/soong" name="android_build_soong" remote="TeamWin" revision="android-11">
         <linkfile src="root.bp" dest="Android.bp"/>
